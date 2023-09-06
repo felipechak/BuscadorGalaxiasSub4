@@ -1,7 +1,7 @@
 const LIST_URL = "https://images-api.nasa.gov/search?q="
 
 const crearTarjeta = (imagen, description, titulo, fecha) => {
-    let content = `<div class="card col-md-4">
+    let content = `<div class="card">
         <img src= "${imagen}" alt="Card Image">
         <div class="card-content">
             <h2>${titulo}</h2>

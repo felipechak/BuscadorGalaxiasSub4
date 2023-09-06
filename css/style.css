@@ -9,7 +9,7 @@ main {
     max-height: 700px;
 }
 .card img {
-    max-width: 100%;
+    max-width: 0.5fr;
 }
 .card-content {
     text-align: center;
@@ -33,5 +33,12 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 p {
-  overflow: scroll;
+  overflow-y: scroll;
+  max-height: 100px;
+  text-align: justify;
+}
+img {
+  aspect-ratio: 4/3;
+  width:100%;
+  object-fit: cover;
 }
