@@ -16,6 +16,7 @@ main {
 }
 .card h2 {
     font-size: 24px;
+    height: 80px;
 }
 .card p {
     font-size: 16px;
@@ -33,9 +34,10 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 p {
-  overflow-y: scroll;
+  overflow-y: auto;
   max-height: 100px;
   text-align: justify;
+  height: 100px;
 }
 img {
   aspect-ratio: 4/3;
